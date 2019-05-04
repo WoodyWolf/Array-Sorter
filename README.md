@@ -11,7 +11,7 @@ Installation
 To install this library run
 
 ```
-$ composer require WoodyWolf/Array-Sorter
+$ composer require woodywolf/sorter
 ```
 
 Usage
