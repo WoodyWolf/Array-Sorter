@@ -6,6 +6,6 @@ class NullObjectSorter implements SorterInterface
 {
     public function doSorting(array $array): array
     {
-        return [null];
+        return $array;
     }
 }
