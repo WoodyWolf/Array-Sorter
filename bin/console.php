@@ -18,6 +18,6 @@ $sorter = new Sorter(new NullObjectSorter());
 $sorted_array = $sorter->execute($array);
 \print_r($sorted_array);
 
-$sorter ->setStrategy(new DescendingSorter());
+$sorter->setStrategy(new DescendingSorter());
 $sorted_array = $sorter->execute($array);
 \print_r($sorted_array);
