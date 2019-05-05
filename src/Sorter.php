@@ -3,7 +3,7 @@
 
 namespace woodywolf\sorter;
 
-class Context
+class Sorter
 {
     /**
      * @var SorterInterface
