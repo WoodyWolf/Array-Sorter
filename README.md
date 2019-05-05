@@ -1,7 +1,7 @@
 Array Sorter
 ===============
 
-This library can sort array.In ascending and descending way
+Library for sorting arrays
 
 
 
