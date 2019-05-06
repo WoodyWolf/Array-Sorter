@@ -3,7 +3,6 @@
 
 namespace woodywolf\sorter;
 
-use phpDocumentor\Reflection\Types\Void_;
 
 class Sorter
 {
