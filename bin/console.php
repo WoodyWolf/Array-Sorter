@@ -19,5 +19,5 @@ $sorted_array = $sorter->sort($array);
 \print_r($sorted_array);
 
 $sorter->setStrategy(new DescendingSorter());
-$sorted_array = $sorter->execute($array);
+$sorted_array = $sorter->sort($array);
 \print_r($sorted_array);
