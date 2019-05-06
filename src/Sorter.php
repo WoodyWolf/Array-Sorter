@@ -3,6 +3,8 @@
 
 namespace woodywolf\sorter;
 
+use phpDocumentor\Reflection\Types\Void_;
+
 class Sorter
 {
     /**
@@ -15,7 +17,7 @@ class Sorter
         $this->sorter = $sorter;
     }
 
-    public function setStrategy(SorterInterface $sorter)
+    public function setStrategy(SorterInterface $sorter) : void
     {
         $this->sorter = $sorter;
     }
