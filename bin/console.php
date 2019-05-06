@@ -10,12 +10,12 @@ use woodywolf\sorter\NullObjectSorter;
 
 $array = ['c','a','t'];
 $sorter = new Sorter(new AscendingSorter());
-$sorted_array = $sorter->execute($array);
+$sorted_array = $sorter->sort($array);
 \print_r($sorted_array);
 
 $array = ['c','a','t'];
 $sorter = new Sorter(new NullObjectSorter());
-$sorted_array = $sorter->execute($array);
+$sorted_array = $sorter->sort($array);
 \print_r($sorted_array);
 
 $sorter->setStrategy(new DescendingSorter());

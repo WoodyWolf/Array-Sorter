@@ -20,7 +20,7 @@ class Sorter
         $this->sorter = $sorter;
     }
 
-    public function execute(array $array): array
+    public function sort(array $array): array
     {
         return $this->sorter->doSorting($array);
     }
