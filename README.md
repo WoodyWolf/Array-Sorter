@@ -21,16 +21,16 @@ Ascending Sorting
 
 ```php
 $array = ['c','a','t'];
-$sorter = new Context(new AscendingSorter());
-$sortedarray = $sorter->execute($array);
+$sorter = new Sorter(new AscendingSorter());
+$sortedarray = $sorter->sort($array);
 ```
 
 Descending Sorting 
 
 ```php
 $array = ['c','a','t'];
-$sorter = new Context(new DescendingSorter());
-$sortedarray = $sorter->execute($array);
+$sorter = new Sorter(new DescendingSorter());
+$sortedarray = $sorter->sort($array);
 ```
 
 License
